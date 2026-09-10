@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    display: flex;
+    min-height: 100vh;
+    background-color: #0A1422;
+}
+main {
+    padding: 30px;
+}
+.boas-vindas {
+    margin-bottom: 30px;
+    text-align: left;
+    justify-content: flex-start;
+}
+.text-boavinda {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.pessoa {
+    font-size: 17px;
+    font-weight: 500;
+    color: #e3e9f7;
+}
+.text-boavinda h1 {
+    margin: 0;
+    font-size: 32px;
+    font-weight: 700;
+    color: #e3e9f7;
+}
+.text-boavinda p {
+    margin: 0;
+    font-size: 15px;
+    color: #e3e9f7;
+}
+
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #07121F;
+    height: 100vh;
+    border-radius: 0px 18px 18px 0px;
+    position: relative;
+    transition: all .5s;
+    min-width: 180px;
+    z-index: 2;
+}
+#sidebar-content {
+    padding: 15px;
+}
+#user {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+#user-avatar {
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+#user-infos {
+    display: flex;
+    flex-direction: column;
+}
+.item-descricao {
+    color: #e3e9f7;
+}
+
+#user-infos span:last-child {
+    color: #6b6b6b;
+    font-size: 12px;
+}
+
+#side-items {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    list-style: none;
+}
+
+.side-item {
+    border-radius: 8px;
+    padding: 14px;
+    cursor: pointer;
+}
+.side-item:hover {
+    background-color: #504ac3;
+}
+
+.side-item a {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    color: #e3e9f7;
+    gap: 5px;
+}
+.side-item a i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20px;
+    height: 20px;
+}
+#sair {
+    border-top: 1px solid #e3e9f7;
+    padding: 12px;
+}
+#sair-button {
+    border: none;
+    padding: 12px;
+    font-size: 14px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    border-radius: 8px;
+    text-align: start;
+    cursor: pointer;
+    background-color: transparent;
+    color: #e3e9f7;
+}
+#sair-button:hover {
+    background-color: #504ac3;
+}
+.Imagem {
+    width: 85px;
+    height: 75px;
+    margin-left: auto;
+    margin-right: 10px;
+}
